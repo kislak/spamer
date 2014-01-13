@@ -19,9 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
-
-spamer = Spamer::Base.new('my_public_key', 'my_private_key')
-spamer.send_sms('375257404426', 'Hello world.', {sender: 'SergeKislak'})
+    spamer = Spamer::Base.new('my_public_key', 'my_private_key')
+    spamer.send_sms('375257404426', 'Hello world.', {sender: 'SergeKislak'})
 
 ## Contributing
 
